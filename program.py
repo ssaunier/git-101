@@ -1,6 +1,6 @@
 import requests
 
-city = input("Which city?\n> ")
+city = input("Which city do you want to know the weather of?\n> ")
 url = f"https://www.metaweather.com/api/location/search/?query={city}"
 
 response = requests.get(url)
